@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>coinFlip</title>
-</head>
-<body>
-    <button id="head-button">Heads</button>
-    <button id="tail-button">Tails</button>
-</body>
-<script src="flip.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coin Flip Game</title>
+    <link rel="stylesheet" href="flip.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Coin Flip Game</h1>
+
+      <div class="buttons">
+        <button id="head-button" class="coin-button">Heads</button>
+        <button id="tail-button" class="coin-button">Tails</button>
+      </div>
+
+      <p class="result-text" id="result-text"></p>
+      <p class="score-text" id="score-text">Wins: 0 | Losses: 0</p>
+    </div>
+
+    <script src="flip.js"></script>
+  </body>
 </html>
